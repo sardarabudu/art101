@@ -1,0 +1,24 @@
+//Snake Game
+// An implementation of the classic snake Game
+// sardar <sabuduke@ucsc.edu>
+
+//1. initialize Game
+// set default game configuration
+// generate an initial snake at the center of the board
+// generate the first piece of food randomly on the board
+
+
+//2. game loop
+// display the game board, nake ,and food
+// accept user input for snake direction(up, down,left, right)
+//move the snake in the current direction
+    //if snake hits itself ,game over
+    //if snake hits the border,game over 
+    // if snake consumes food, increase its length and generate new food
+// update game speed as snak's length increases
+// repeat until game over 
+
+//3. game over 
+// display game over message 
+// show player socre (based on snake length or food consumed)
+// ask if player want to play again or quit

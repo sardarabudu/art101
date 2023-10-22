@@ -1,9 +1,17 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+.img-box {
+  width: 250px; /* or whatever width you prefer */
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+.img-box img {
+  max-width: 100%; /* Ensures that the image never exceeds the width of its container */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
