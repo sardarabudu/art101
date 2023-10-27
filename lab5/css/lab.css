@@ -1,9 +1,37 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+/* Apply styles to headings */
+h1 {
+  color: #333; /* Text color */
+  font-size: 24px; /* Font size */
+  margin-bottom: 10px; /* Margin at the bottom */
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+h3 {
+  color: #555; /* Text color */
+  font-size: 18px; /* Font size */
+}
+
+/* Apply styles to paragraphs */
+p {
+  line-height: 1.5; /* Line height for better readability */
+  margin-bottom: 20px; /* Margin at the bottom */
+}
+
+/* Style the output section */
+.output {
+  border: 1px solid #ccc; /* Add a border to the output div */
+  padding: 10px; /* Padding inside the div */
+}
+
+/* Style the image */
+img {
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto; /* Maintain image aspect ratio */
+  display: block; /* Remove extra spacing under the image */
+  margin: 0 auto; /* Center the image horizontally */
+  
+  /* Position the image in the top-right corner */
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+
