@@ -1,26 +1,19 @@
-/*
- * Lab 7 - JavaScript Function to Sort Letters in a User's Name
- * Author: sardar
- * Date: November 5
- */
+var numbers = [1, 2, 3, 4, 5];
 
-
-function sortUserName() {
-    // Prompt the user for their name
-    var userName = window.prompt("Enter your name:");
-
-    // Convert the string to an array of characters
-    var charArray = userName.split('');
-
-    // Sort the array
-    charArray.sort();
-
-    // Convert the sorted array back to a string
-    var sortedName = charArray.join('');
-
-    // Return the sorted name
-    return sortedName;
+function squareNumber(x) {
+    var result = x * x;
+    return result;
 }
 
-// Call the function and output the sorted name
-document.writeln("Sorted name: " + sortUserName());
+console.log(squareNumber(2));  
+console.log(squareNumber(3));  
+console.log(squareNumber(4)); 
+
+var squaredNumbers = numbers.map(squareNumber);
+console.log(squaredNumbers);  
+
+var doubledNumbers = numbers.map(function(x) {
+    var result = x * 2;
+    return result;
+});
+console.log(doubledNumbers);  
