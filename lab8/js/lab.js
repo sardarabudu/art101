@@ -1,8 +1,12 @@
+/*
+ * Art 101 - Lab 8 JavaScript Experiment
+ * Author: sardar
+ * Date: November 5
+ */
 var numbers = [1, 2, 3, 4, 5];
 
 function squareNumber(x) {
-    var result = x * x;
-    return result;
+    return x * x;
 }
 
 console.log(squareNumber(2));  
@@ -13,7 +17,7 @@ var squaredNumbers = numbers.map(squareNumber);
 console.log(squaredNumbers);  
 
 var doubledNumbers = numbers.map(function(x) {
-    var result = x * 2;
-    return result;
+    return x * 2;
 });
 console.log(doubledNumbers);  
+
