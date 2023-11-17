@@ -1,7 +1,7 @@
 .special {
     background-color: lavender;
     border: 3px dotted rgb(75, 63, 63);
-    color: pink;
+    color: rgb(57, 79, 176);
     font-weight: bold;
     padding: 20px;
     margin: 10px 0;
@@ -11,7 +11,10 @@
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+
 .special:hover {
     transform: scale(1.03);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+
