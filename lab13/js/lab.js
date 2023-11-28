@@ -1,6 +1,7 @@
 // Written by: sardar
 // Description: FizzBuzz
 // Last modified: 2023-11-26
+// credit to chat gpt
 
 
 

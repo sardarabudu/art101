@@ -1,0 +1,21 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#color-mixer {
+    text-align: center;
+}
+
+#mixer-controls {
+    margin: 20px;
+}
+
+#mixed-color-display {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    display: none; /* Hide initially */
+}
