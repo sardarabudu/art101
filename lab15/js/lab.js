@@ -1,3 +1,10 @@
+/*
+sardar
+Lab 15
+date: 12/2/2023
+*/
+
+
 $(document).ready(function() {
     $("#activate").click(function() {
         $.ajax({
