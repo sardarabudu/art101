@@ -1,4 +1,12 @@
-// 
+// sardar
+// megan
+// daniel
+// yihan
+// November 2023
+
+
+
+
 $(document).ready(function() {
     $('#mix-button').click(function() {
         var color1 = hexToRgb($('#color1').val());

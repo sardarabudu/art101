@@ -1,0 +1,70 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button#activate {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button#activate:hover {
+    background-color: #005f73;
+}
+
+#output {
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 50px;
+    word-wrap: break-word;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#challenge, #problems, #results, #debugging {
+    margin-bottom: 40px;
+}
+
+/* Container for each section */
+.section {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #d3ffb8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #4a7c59;
+    margin-bottom: 20px;
+}
+
+/* Style for the FizzBuzz Results */
+#output p {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive Grid for Output */
+#output {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+/* Button and Form Styles */
+button, input[type="text"], select {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4a7c59;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3e644b;
+}
